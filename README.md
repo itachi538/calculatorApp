@@ -1,50 +1,86 @@
-# Welcome to your Expo app 👋
+# Calculator App ✨
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+_Author_: Devashish Sanjay Gaikwad
 
-## Get started
+## 🖥️ About the Project
 
-1. Install dependencies
+This is a modern and elegant calculator mobile application built using _React Native_. The app features a clean, unique UI with excellent performance optimizations, making it stand out from the crowd. Designed to handle basic arithmetic operations, this calculator is user-friendly and highly responsive.
+
+---
+
+## 🚀 Features
+
+### 🌟 _UI/UX Highlights_
+
+- _Unique Color Scheme_:
+  - _Background_: Deep dark (#15141A)
+  - _Number Buttons_: Rich navy (#2A2D3E)
+  - _Operator Buttons_: Deep slate (#2D3047) with amber text (#FF9F1C)
+  - _Equal Button_: Teal green (#1B998B)
+  - _Function Buttons_: Slate gray (#454B66)
+- _Refined Layout_:
+  - Smooth animations
+  - Responsive design for all screen sizes
+  - Auto-scaling text for the display
+  - Rounded buttons with shadow effects
+  - Signature line at the bottom: _"Calc by Aadit"_
+
+### ⚡ _Performance Optimizations_
+
+- _Efficient State Management_: Optimized for re-renders using React.memo, useCallback, and useMemo.
+- Lightweight and fast execution.
+
+### 🧮 _Functional Features_
+
+- Basic Arithmetic Operations: Addition, Subtraction, Multiplication, and Division.
+- Percentage Calculations.
+- Decimal and Sign Toggle Support.
+- Continuous Calculation Support.
+- Clear Functionality.
+
+---
+
+## 📲 Installation
+
+### Prerequisites
+
+- _Node.js_ (https://nodejs.org)
+- _Expo CLI_ (https://expo.dev/tools)
+
+### Steps to Run Locally
+
+1. Clone the repository:
 
    ```bash
-   npm install
+   git clone https://github.com/itachi538/calculatorApp.git
+
    ```
 
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+2. Install Dependencies:
 
 ```bash
-npm run reset-project
+  npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+3. Start the development server:
 
-## Learn more
+```bash
+  npx expo start
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+4. Scan the QR Code:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- Android: Open the expo go app and scan the QR code using in-app scanner
+- IOS: Open your Iphone camera and scan the given QR code.
 
-## Join the community
+### ⚡ Contact Information:
 
-Join our community of developers creating universal apps.
+- Author: Devashish Sanjay Gaikwad
+- Email: devashishgaikwad8@gmail.com
+- GitHub: https://github.com/itachi538
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### ⚡ Image:
+
+![image1](./assets/images/img1.jpg)
+![image2](./assets/images/img2.jpg)
+![image3](./assets/images/img3.jpg)
